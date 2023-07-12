@@ -1,0 +1,118 @@
+body{
+    background-image: url("pexels-madison-inouye-1831234.jpg");
+    text-align: center; 
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+ 
+}
+
+
+div.fill{
+    width:45vw;
+    height: 60vh;
+   
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(10, 9, 9);
+
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 380px;
+    
+}
+.con{
+    display:flex;
+    flex-direction: row;
+    margin-left:-32vw;
+    padding:10px;
+    margin-top: 3vh;
+
+
+}
+.magic{
+    
+    padding:10px;
+    margin-top: 3vh;
+}
+.magica{
+   
+    padding:10px;
+   
+}
+
+.magical{
+   
+    padding:10px;
+
+}
+.pri{
+    font-size: 20px;
+    margin-left: 8px;
+   
+}
+.clickit{
+   font-size: 20px;
+   background-color: rgb(192, 85, 8);
+   color: aliceblue;
+   position: absolute;
+   left:30vw;
+   bottom:15vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.clickout{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(6, 6, 6);
+    position: absolute;
+    right:27.9vw;
+    bottom:15vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
+
+}
+#user,#code,#confirm{
+    width:42vw;
+    height:4vh;
+}
+#now{
+    background-color: rgb(33, 131, 57);
+    border-radius: 5px;
+    padding: 5px;
+    width:35vw;
+    height:5vh;
+    margin-top: 10px;
+    color:aliceblue;
+    
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.form{
+    font-size: 25px;
+    font-weight: bolder;
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button#now.click:hover{
+    background-color: rgb(219, 104, 154);
+    transition-duration: 1s;
+
+}
+button#go.clickit:hover{
+    background-color: rgb(64, 159, 226);
+    transition-duration: 1s;
+
+
+}
+button#boss.clickout:hover{
+    background-color:rgb(64, 159, 226);
+    transition-duration: 1s;
+
+}
+
